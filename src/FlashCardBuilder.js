@@ -21,6 +21,10 @@ export default function FlashCardBuilder({onAdd}) {
         onAdd(front, back);
     }
 
+    function addFlashCard(){
+        
+    }
+
     return (
     <>
     <form method="post" onSubmit={handleSubmit}>
